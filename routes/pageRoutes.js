@@ -3,13 +3,13 @@ const router = express.Router();
 
 const team = [
   {
-    name: "Suhil Jugroop", role: "Team Leader, Backend Developer, Frontend Developer, Data Manager", image: "Suhil.jpg", bio: ""
+    name: "Suhil Jugroop", role: "Team Leader, Backend Developer, Frontend Developer, Data Manager", image: "Suhil.jpg", bio: "Also likes BBBs"
   },
   {
-    name: "Duan van Deventer", role: "Backend Developer, Frontend Developer, Data Manager", image: "Duan.jpeg", bio: ""
+    name: "Duan van Deventer", role: "Backend Developer, Frontend Developer, Data Manager", image: "Duan.jpeg", bio: "BBBs"
   },
   {
-    name: "Andile Nkosi", role: "Backend Developer, Frontend Developer, Data Manager", image: "Andile.jpg", bio: ""
+    name: "Andile Nkosi", role: "Backend Developer, Frontend Developer, Data Manager", image: "Andile.jpg", bio: "REALLY LIKES BBBs"
   },
   {
     name: "Mamello Lelaka", role: "Backend Developer, Frontend Developer, Data Manager", image: "Mamello.jpg", bio: ""
