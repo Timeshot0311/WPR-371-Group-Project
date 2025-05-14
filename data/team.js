@@ -1,4 +1,4 @@
-const router = require("./pageRoutes");
+const router = require("../routes/pageRoutes");
 
 const team = [
   {
@@ -15,4 +15,4 @@ const team = [
   },
 ];
 
-module.exports = router;
+module.exports = team;

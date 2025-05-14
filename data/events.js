@@ -42,3 +42,5 @@ const events = [
     image: "kyalami.jpg"
   }
 ];
+
+module.exports = events;
