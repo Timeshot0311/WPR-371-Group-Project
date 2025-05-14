@@ -1,6 +1,25 @@
 <%- include('../partials/header') %>
 <main>
+
 <h1>Upcoming Events</h1>
-<p>Check out what's happening soon!</p>
+
+<div class="container mt-5">
+    <div class="row">
+      <% events.forEach(event => { %>
+        <div class="col-md-4 mb-4">
+          <div class="card" style="width: 20rem;">
+            <img src="/images/<%= event.image %>" class="card-img-top" alt="picture of <%= event.title %>"  style="height: 400px; object-fit: cover;">
+            <div class="card-body">
+              <h3 class="card-title"><%= event.title %></h3>
+            </div>
+            <ul class="list-group list-group-flush">
+    <li class="list-group-item">Date: <%= event.date %></li>
+    <li class="list-group-item">Location: <%= event.location %></li>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+
 </main>
 <%- include('../partials/footer') %>
